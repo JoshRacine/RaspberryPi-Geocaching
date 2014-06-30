@@ -18,5 +18,12 @@ Requirements
   - Windows/Linux/Mac OS
   - SD card reader/writer
 
-Download the pre built RaspberryPi image here 
-The default user name is 'pi' and the password is 'raspberry'
+Setting up the Raspberry Pi
+- Download the pre built RaspberryPi image here 
+- The default user name is 'pi' and the password is 'raspberry'
+
+Connecting to the Raspberry Pi
+- Enable network connection sharing on eth0
+- run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP adress
+- SSH into the Raspberry Pi "ssh pi@<IP of Pi>"
+- Enter the username and password
