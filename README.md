@@ -21,7 +21,7 @@ Requirements
   - SD card reader/writer
 
 Setting up the Raspberry Pi
-- Download the pre built RaspberryPi image [here]()
+- Download the pre built RaspberryPi image [here](https://drive.google.com/file/d/0B1QwSWI7WxfpeEpNaWZlZmxWX1E/edit?usp=sharing)
 
 
 Connecting to the Raspberry Pi
