@@ -7,7 +7,7 @@ RasberryPi-Geocaching
 
 Requirements
   - RaspberryPi
-  - USB GPS 
+  - USB GPS available [here](http://www.amazon.com/GlobalSat-BU-353-USB-GPS-Receiver/dp/B000PKX2KA/ref=sr_1_2?ie=UTF8&qid=1404094736&sr=8-2&keywords=usb+gps)
   - 1602 LCD screen
   - 16gb or larger SD card
   - Bread board jumper wires
@@ -20,12 +20,12 @@ Requirements
   - SD card reader/writer
 
 Setting up the Raspberry Pi
-- Download the pre built RaspberryPi image [here](http://google.com/)
+- Download the pre built RaspberryPi image [here]()
 
 
 Connecting to the Raspberry Pi
 - Enable network connection sharing on eth0
-- Open a terminal and run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP adress
+- Open a terminal and run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP address
 - SSH into the Raspberry Pi "ssh pi@<IP of Pi>"
 - Enter the username and password
 - The default user name is 'pi' and the password is 'raspberry'
