@@ -15,15 +15,17 @@ Requirements
   - Bread board
   - Potentiometer
   - Ethernet Cable
-  - Windows/Linux/Mac OS
+  - A laptop with Linux on it
+  - If you do not have a laptop, some sort of portable USB power for the Pi
   - SD card reader/writer
 
 Setting up the Raspberry Pi
-- Download the pre built RaspberryPi image here 
-- The default user name is 'pi' and the password is 'raspberry'
+- Download the pre built RaspberryPi image [google.com](here)
+
 
 Connecting to the Raspberry Pi
 - Enable network connection sharing on eth0
-- run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP adress
+- Open a terminal and run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP adress
 - SSH into the Raspberry Pi "ssh pi@<IP of Pi>"
 - Enter the username and password
+- The default user name is 'pi' and the password is 'raspberry'
