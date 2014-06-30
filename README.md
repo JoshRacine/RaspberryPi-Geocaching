@@ -2,7 +2,7 @@ RasberryPi-Geocaching
 =====================
 
 - Perl/Python based code for Geocaching with a 1602 LCD and a RPi 
-- This code is not entirely my work, some of the code 
+- This code is not entirely my work, some of the code is done by...
 - Credit to my friend and peer Jason Giberson for helping with testing and troubleshooting code. 
 
 Requirements
