@@ -11,7 +11,8 @@ Requirements
   - 1602 LCD screen available [here](http://www.amazon.com/microtivity-IM161-Module-White-Backlight/dp/B0059H60SK/ref=sr_1_1?ie=UTF8&qid=1404096445&sr=8-1&keywords=1602+lcd)
   - 16gb or larger SD card
   - Bread board 
-  - Bread board jumper wires - I recommend [these](http://www.amazon.com/Phantom-YoYo-dupont-cable-female/dp/B00A6SOGC4/ref=sr_1_1?ie=UTF8&qid=1404096663&sr=8-1&keywords=male+to+female+jumper+wire)
+  - Bread board jumper wires 
+  - Male to female jumper wires - I recommend [these](http://www.amazon.com/Phantom-YoYo-dupont-cable-female/dp/B00A6SOGC4/ref=sr_1_1?ie=UTF8&qid=1404096663&sr=8-1&keywords=male+to+female+jumper+wire)
   - Possibly a soldering iron (Depends on the LCD, some come pre-soldered)
   - Potentiometer (Some LCD's come with one)
   - Ethernet Cable
