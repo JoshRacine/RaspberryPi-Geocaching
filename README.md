@@ -27,7 +27,15 @@ Setting up the Raspberry Pi
 ![Adafruit Wiring Diagram](https://learn.adafruit.com/system/assets/assets/000/001/729/medium800/raspberry_pi_pi-char-lcd.gif?1396775803 "Adafruit Wiring Diagram")
 
 Connecting to the Raspberry Pi
-- Enable network connection sharing on eth0
+- Enable network connection sharing on eth0 (This is different depending on what Linux OS you are running and network manager versions, but this should cover the basics of it)
+
+- click on the netwrok manager icon and select "Edit connections..."
+- ![Connection Sharing](http://i.stack.imgur.com/0DrKe.png "Connection Sharing")
+- Select your wired connection and click edit
+- ![Connection Sharing](http://i.stack.imgur.com/NsSUr.png "Connection Sharing")
+- Under the "IPV4 settings tab", select the "method" drop down list and choose "Shared to other Computers"
+- ![Connection Sharing](http://i.stack.imgur.com/AoLa3.png "Connection Sharing")
+
 - Open a terminal and run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP address
 - SSH into the Raspberry Pi "ssh pi@IP of Pi"
 - Enter the username and password
