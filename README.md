@@ -43,17 +43,32 @@ Connecting to the Raspberry Pi
  
 ![Connection Sharing](http://i.stack.imgur.com/AoLa3.png "Connection Sharing")
  
- 
-- Open a terminal and run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP address
-- SSH into the Raspberry Pi "ssh pi@IP of Pi"
+- Insert the written SD card into the Pi and power it on
+- Now connect a ethernet cable to you Pi and to your laptops Ethernet Port
+- Open a terminal and cat dnsmasq.leases to find the Raspberry Pi's IP address
+```sh 
+cat /var/lib/misc/dnsmasq.leases 
+```
+- SSH into the Raspberry Pi (Replace the IP below with the IP you got from dnsmasq.leases)
+```sh 
+ssh pi@192.168.1.5
+```
 - Enter the username and password
 - The default user name is 'pi' and the password is 'raspberry'
 - Change Directories into /home/pi/RaspberryPi-Geocaching/
-- "cd /home/pi/RaspberryPi-Geocaching/
-- Do a file listing "ls"
+```sh 
+cd /home/pi/RaspberryPi-Geocaching/ 
+```
+- Do a file listing 
+```sh 
+ls 
+```
 - geocaching.pl is the main perl script that will handle everything for you
 - to use geocaching.pl takes two command line arguments, lat, and lon.
 - Where lat is your latitude and lon is your longitude (both in decimal format)
-- Example "./geocaching.pl 42.2476899 -83.6225163"
+```sh 
+./geocaching.pl 42.2476899 -83.6225163
+```
+
 
 
