@@ -24,7 +24,7 @@ Requirements
 
 Setting up the Raspberry Pi
 --------------------------
-- Download the pre built RaspberryPi image [here](https://drive.google.com/file/d/0B1QwSWI7WxfpeEpNaWZlZmxWX1E/edit?usp=sharing)
+- Download the pre-built RaspberryPi image [here](https://drive.google.com/file/d/0B1QwSWI7WxfpeEpNaWZlZmxWX1E/edit?usp=sharing)
 - Once that is downloaded (it may take a while) follow [this](http://elinux.org/RPi_Easy_SD_Card_Setup) guide on write the image to your SD card.
 - While the use the wiring diagram provided by Adafruit to get the LCD up and running.
 ![Adafruit Wiring Diagram](https://learn.adafruit.com/system/assets/assets/000/001/729/medium800/raspberry_pi_pi-char-lcd.gif?1396775803 "Adafruit Wiring Diagram")
@@ -33,7 +33,7 @@ Connecting to the Raspberry Pi
 ------------------------------
 - Enable network connection sharing on eth0 (This is different depending on what Linux OS you are running and network manager versions, but this should cover the basics of it)
 
-- click on the netwrok manager icon and select "Edit connections..."
+- click on the network manager icon and select "Edit connections..."
  
 ![Connection Sharing](http://i.stack.imgur.com/0DrKe.png "Connection Sharing")
 - Select your wired connection and click edit
@@ -70,5 +70,6 @@ ls
 ./geocaching.pl 42.2476899 -83.6225163
 ```
 
+Your LCD should now be showing the distance to the Coordinates you provided. You can use this with traditional [Geocaches](geocaching.com) or make your own. unfortunately I have yet to be able to calculate the bearing to the coordinates based on location. So for now you with have to give yourself a rough bearing, and somewhat triangulate to it.
 
 
