@@ -26,7 +26,7 @@ Setting up the Raspberry Pi
 --------------------------
 - Download the pre-built RaspberryPi image [here](https://drive.google.com/file/d/0B1QwSWI7WxfpeEpNaWZlZmxWX1E/edit?usp=sharing)
 - Once that is downloaded (it may take a while) follow [this](http://elinux.org/RPi_Easy_SD_Card_Setup) guide on write the image to your SD card.
-- While the use the wiring diagram provided by Adafruit to get the LCD up and running.
+- While the SD card is being written to, use the wiring diagram provided by Adafruit to get the LCD up and running.
 ![Adafruit Wiring Diagram](https://learn.adafruit.com/system/assets/assets/000/001/729/medium800/raspberry_pi_pi-char-lcd.gif?1396775803 "Adafruit Wiring Diagram")
 
 Connecting to the Raspberry Pi
