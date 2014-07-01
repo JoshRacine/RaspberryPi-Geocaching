@@ -2,7 +2,7 @@ RasberryPi-Geocaching
 =====================
 
 - Perl/Python based code for Geocaching with a 1602 LCD and a RPi 
-- This project is not entirely my word, credits to [Adafruit](https://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/wiring) for the wiring diagram, and the code to drive the LCD, and credit to [geodatasource](http://www.geodatasource.com/developers/perl) for their sample perl code I used to code this program.
+- This project is not entirely my own work, credits to [Adafruit](https://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/wiring) for the wiring diagram, and the code to drive the LCD, and credit to [geodatasource](http://www.geodatasource.com/developers/perl) for their sample perl code I used to code this program.
 - Credit to my friend and peer Jason Giberson for helping with testing and troubleshooting code. 
 
 Requirements
