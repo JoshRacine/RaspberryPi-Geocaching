@@ -2,7 +2,7 @@ RasberryPi-Geocaching
 =====================
 
 - Perl/Python based code for Geocaching with a 1602 LCD and a RPi 
-- This code is not entirely my work, some of the code is done by...
+- This project is not entirely my word, credits to [Adafruit](https://learn.adafruit.com/drive-a-16x2-lcd-directly-with-a-raspberry-pi/wiring) for the wiring diagram, and the code to drive the LCD, and credit to [geodatasource](http://www.geodatasource.com/developers/perl) for their sample perl code I used to code this program.
 - Credit to my friend and peer Jason Giberson for helping with testing and troubleshooting code. 
 
 Requirements
@@ -22,7 +22,8 @@ Requirements
 
 Setting up the Raspberry Pi
 - Download the pre built RaspberryPi image [here](https://drive.google.com/file/d/0B1QwSWI7WxfpeEpNaWZlZmxWX1E/edit?usp=sharing)
-
+- Once that is downloaded (it may take a while) follow [this](http://elinux.org/RPi_Easy_SD_Card_Setup) guide on write the image to your SD card.
+- While the 
 
 Connecting to the Raspberry Pi
 - Enable network connection sharing on eth0
@@ -30,3 +31,17 @@ Connecting to the Raspberry Pi
 - SSH into the Raspberry Pi "ssh pi@<IP of Pi>"
 - Enter the username and password
 - The default user name is 'pi' and the password is 'raspberry'
+- Change Directories into /home/pi/RaspberryPi-Geocaching/
+- "cd /home/pi/RaspberryPi-Geocaching/
+- Do a file listing "ls"
+- geocaching.pl is the main perl script that will handle everything for you
+- to use geocaching.pl takes two command line arguments, lat, and lon.
+- Where lat is your latitude and lon is your longitude (both in decimal format)
+- Example "./geocaching.pl 42.2476899 -83.6225163"
+
+
+
+
+
+
+
