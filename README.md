@@ -1,3 +1,4 @@
+
 RasberryPi-Geocaching
 =====================
 
@@ -6,6 +7,7 @@ RasberryPi-Geocaching
 - Credit to my friend and peer Jason Giberson for helping with testing and troubleshooting code. 
 
 Requirements
+------------
   - RaspberryPi available [here](http://www.amazon.com/RASPBERRY-MODEL-756-8308-Raspberry-Pi/dp/B009SQQF9C/ref=sr_1_1?ie=UTF8&qid=1404096520&sr=8-1&keywords=raspberry+pi)
   - USB GPS available [here](http://www.amazon.com/GlobalSat-BU-353-USB-GPS-Receiver/dp/B000PKX2KA/ref=sr_1_2?ie=UTF8&qid=1404094736&sr=8-2&keywords=usb+gps)
   - 1602 LCD screen available [here](http://www.amazon.com/microtivity-IM161-Module-White-Backlight/dp/B0059H60SK/ref=sr_1_1?ie=UTF8&qid=1404096445&sr=8-1&keywords=1602+lcd)
@@ -21,21 +23,27 @@ Requirements
   - SD card reader/writer
 
 Setting up the Raspberry Pi
+--------------------------
 - Download the pre built RaspberryPi image [here](https://drive.google.com/file/d/0B1QwSWI7WxfpeEpNaWZlZmxWX1E/edit?usp=sharing)
 - Once that is downloaded (it may take a while) follow [this](http://elinux.org/RPi_Easy_SD_Card_Setup) guide on write the image to your SD card.
 - While the use the wiring diagram provided by Adafruit to get the LCD up and running.
 ![Adafruit Wiring Diagram](https://learn.adafruit.com/system/assets/assets/000/001/729/medium800/raspberry_pi_pi-char-lcd.gif?1396775803 "Adafruit Wiring Diagram")
 
 Connecting to the Raspberry Pi
+------------------------------
 - Enable network connection sharing on eth0 (This is different depending on what Linux OS you are running and network manager versions, but this should cover the basics of it)
 
 - click on the netwrok manager icon and select "Edit connections..."
-- ![Connection Sharing](http://i.stack.imgur.com/0DrKe.png "Connection Sharing")
+ 
+![Connection Sharing](http://i.stack.imgur.com/0DrKe.png "Connection Sharing")
 - Select your wired connection and click edit
-- ![Connection Sharing](http://i.stack.imgur.com/NsSUr.png "Connection Sharing")
+ 
+![Connection Sharing](http://i.stack.imgur.com/NsSUr.png "Connection Sharing")
 - Under the "IPV4 settings tab", select the "method" drop down list and choose "Shared to other Computers"
-- ![Connection Sharing](http://i.stack.imgur.com/AoLa3.png "Connection Sharing")
-
+ 
+![Connection Sharing](http://i.stack.imgur.com/AoLa3.png "Connection Sharing")
+ 
+ 
 - Open a terminal and run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP address
 - SSH into the Raspberry Pi "ssh pi@IP of Pi"
 - Enter the username and password
@@ -47,10 +55,5 @@ Connecting to the Raspberry Pi
 - to use geocaching.pl takes two command line arguments, lat, and lon.
 - Where lat is your latitude and lon is your longitude (both in decimal format)
 - Example "./geocaching.pl 42.2476899 -83.6225163"
-
-
-
-
-
 
 
