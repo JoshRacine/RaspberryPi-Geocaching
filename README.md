@@ -29,7 +29,7 @@ Setting up the Raspberry Pi
 Connecting to the Raspberry Pi
 - Enable network connection sharing on eth0
 - Open a terminal and run "cat /var/lib/misc/dnsmasq.leases" to find the Raspberry Pi's IP address
-- SSH into the Raspberry Pi "ssh pi@<IP of Pi>"
+- SSH into the Raspberry Pi "ssh pi@IP of Pi"
 - Enter the username and password
 - The default user name is 'pi' and the password is 'raspberry'
 - Change Directories into /home/pi/RaspberryPi-Geocaching/
