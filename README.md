@@ -73,3 +73,4 @@ ls
 Your LCD should now be showing the distance to the Coordinates you provided. You can use this with traditional [Geocaches](geocaching.com) or make your own. unfortunately I have yet to be able to calculate the bearing to the coordinates based on location. So for now you with have to give yourself a rough bearing, and somewhat triangulate to it.
 
 
+This project can be used freely as you wish, I had many hands in helping me create this from friends and posts online. I only ask that you give credit for the write up I did here if used somewhere else. Not all images in this write up were taken by or belong to me.
